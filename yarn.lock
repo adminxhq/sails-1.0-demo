@@ -2769,6 +2769,10 @@ mkdirp@0.x.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.19.2:
+  version "2.19.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.2.tgz#8a7f774c95a64550b4c7ebd496683908f9419dbe"
+
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -2844,6 +2848,10 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
 number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
+
+numeral@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/numeral/-/numeral-2.0.6.tgz#4ad080936d443c2561aed9f2197efffe25f4e506"
 
 oauth-sign@~0.8.2:
   version "0.8.2"
@@ -3530,9 +3538,9 @@ sails-stringfile@0.3.2:
     colors "*"
     lodash "~2.4.1"
 
-"sails-util-mvcsloader@git+https://github.com/adminxhq/sails-util-mvcsloader.git":
+"sails-util-mvcsloader@https://github.com/adminxhq/sails-util-mvcsloader":
   version "0.4.0"
-  resolved "git+https://github.com/adminxhq/sails-util-mvcsloader.git#527666d5ce9af7631f7a52873d2b2e9d0762497b"
+  resolved "https://github.com/adminxhq/sails-util-mvcsloader#527666d5ce9af7631f7a52873d2b2e9d0762497b"
   dependencies:
     async "^0.9.0"
     include-all "^0.1.6"

@@ -6,7 +6,7 @@ module.exports = {
    ***************************************************************************/
   models: {
     datastore: 'testDiskDb',
-    migrate: 'alter'
+    migrate: 'drop'
   },
 
   port: process.env.PORT || 1339,
@@ -14,7 +14,7 @@ module.exports = {
   routes: {
     '/adminx*': {
       cors: {
-        allowedOrigins: '*'
+        allowOrigins: '*'
       }
     },
   }

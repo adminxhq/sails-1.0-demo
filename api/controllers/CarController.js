@@ -13,7 +13,7 @@ module.exports = {
   },
 
   'details': function (req, res) {
-    var id = req.param('id');
+    var id = parseInt(req.param('id'));
 
     Car.findOne({ id: id })
       .populateAll()
