@@ -18,7 +18,10 @@ module.exports = {
     Car.findOne({ id: id })
       .populateAll()
       .then(function (car) {
-        res.view('car-details', { car: car });
+        if(car) {
+          res.view('car-details', { car: car });
+        }
+        return res.badRequest();
       })
       .catch(res.serverError)
     ;
