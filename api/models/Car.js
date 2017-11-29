@@ -38,14 +38,14 @@ module.exports = {
       id: { disabled: true },
       thumbnail: { list: true, editor: 'image' },
       brand: { }, // Here for ordering
-      year: { editor: 'input-integer' },
-      dailyRate: { editor: 'input-float' },
+      year: { editor: 'input-integer', min: 2000, max: 2019 },
+      dailyRate: { editor: 'input-float', min: 0 },
       availableAt: { editor: 'md-datepicker' },
       model: { list: true },
       summary: { }, // Here for ordering
       cover: { editor: 'image' },
       extras: { editor: 'md-chips' },
-      doorConfiguration: { editor: 'md-select' },
+      doorConfiguration: { editor: 'md-select', enum: ['2 Doors', '3 Doors', '4 Doors', '5 Doors', '6 Doors'] },
       history: { editor: 'html-simple' },
       createdAt: { editor: 'moment-picker' },
       updatedAt: { list: true, editor: 'moment-picker' },
