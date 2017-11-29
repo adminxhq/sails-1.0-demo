@@ -6,7 +6,7 @@ module.exports = {
    ***************************************************************************/
   models: {
     datastore: 'testDiskDb',
-    migrate: 'drop'
+    migrate: 'alter'
   },
 
   port: process.env.PORT || 1339,

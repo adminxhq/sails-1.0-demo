@@ -18,7 +18,9 @@ module.exports = {
   adminx: {
     attributes: {
       id: { disabled: true },
-      name: { list: true }
+      name: { list: true },
+      createdAt: { editor: 'moment-picker' },
+      updatedAt: { editor: 'moment-picker' }
     }
   }
 };

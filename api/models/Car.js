@@ -38,11 +38,17 @@ module.exports = {
       id: { disabled: true },
       thumbnail: { list: true, editor: 'image' },
       brand: { }, // Here for ordering
+      year: { editor: 'input-integer' },
+      dailyRate: { editor: 'input-float' },
+      availableAt: { editor: 'md-datepicker' },
       model: { list: true },
       summary: { }, // Here for ordering
       cover: { editor: 'image' },
+      extras: { editor: 'md-chips' },
+      doorConfiguration: { editor: 'md-select' },
       history: { editor: 'html-simple' },
-      updatedAt: { list: true },
+      createdAt: { editor: 'moment-picker' },
+      updatedAt: { list: true, editor: 'moment-picker' },
     }
   }
 };
